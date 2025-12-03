@@ -3,7 +3,7 @@ import pytest
 from unittest.mock import patch
 from check_age import is_adult, main
 
-
+# 测试纯函数
 def test_is_adult_gt_et_18():
     assert is_adult(18) == "成年人"
     assert is_adult(29) == "成年人"
